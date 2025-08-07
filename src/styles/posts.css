@@ -1,0 +1,36 @@
+.posts-page {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.posts-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-light-text);
+}
+
+.posts-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-item {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: var(--color-light-bg-alt);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.post-item h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+  color: var(--color-light-text);
+}
+
+.post-item p {
+  margin: 0;
+  color: var(--color-light-text);
+}
+  

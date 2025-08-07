@@ -1,0 +1,19 @@
+.theme-toggle {
+  position: fixed;
+  bottom: 1rem; 
+  right: 1rem;
+  z-index: 1000;
+  padding: 0.5rem 0.5rem;
+  background-color: var(--color-dark-bg);
+  color: var(--color-dark-text);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.theme-toggle:hover {
+  background-color: var(--colror-dark-hover);
+  color: var(--color-light-text);
+}
